@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    font-family: 'Tilt Neon', cursive;
+}
+
+body{
+    background-image: url(foto/back.jpg);
+    background-repeat: repeat-x;
+}
+
+.kontentabel{
+    color: #444;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 14px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table>thead{
+    background-color: rgb(68, 150, 205);
+    color: #444;
+}
+
+table>thead th{
+    padding: 8px;
+    font-weight: 500;
+}
+
+table th, table td{
+    border: 1px solid rgb(200, 199, 199);
+}
